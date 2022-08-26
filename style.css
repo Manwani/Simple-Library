@@ -1,0 +1,86 @@
+.header{
+  border: 3px red solid;
+  text-align: center;
+}
+
+
+.addBookForm{
+  display:none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.addBook{
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+}
+
+.inputFields{
+  background-color: rgb(209, 207, 207);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+  height:auto;
+  text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .flex-item {
+    background-image: url("bookImage.png");
+    width: 200px;
+    height: 250px;
+    margin:10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+
+  .container-content{
+    margin:0px 0px 0px 44px;
+    width: 150px;
+    height: 250px;
+   /*  border: 3px white solid; */
+   
+  
+
+  }
+  .content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(243, 240, 240, 0.5);;
+  }
+
+  .content li{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px 0px 10px 0px;
+    
+  }
+
+  .readButton{
+    margin-top:20px;
+  }
+
+  .deleteButton{
+    margin-bottom: 15px;
+
+  }

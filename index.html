@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+  </head>
+  <body>
+  <header class = "header"><h1>Library</h1></header>
+  <div class = "addBookForm">
+    <form class = "inputFields">
+      <label for="bookName">Book Name:</label><br>
+      <input type="text" id="bookName"><br>
+      <label for="Author">Author:</label><br>
+      <input type="text" id="author"><br>
+      <label for="Pages">Pages:</label><br>
+      <input type="number" id="pages"><br>
+      <label for="read">Read?</label><br>
+      <input type="radio" id="read"  name="read" value="yes"> Yes
+      <input type="radio" id="notRead" name="read" value="no"> No <br><br>
+      <button type="button" class="pushBook"> Add </button>
+      <button type="button" class="cancel"> Cancel </button>
+    </form> 
+  </div> 
+  <button class = "addBook">add book</button>
+  <script src = "library.js"></script>
+  </body>
+</html>
